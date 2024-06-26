@@ -1,3 +1,4 @@
+//este esjersicio hay que interiorizarlo por que no es mío
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
@@ -15,7 +16,7 @@ public class InventarioTienda {
 
     private ArrayList<Producto> inventario;
 
-    // Constructor
+   
     public InventarioTienda() {
         inventario = new ArrayList<>();
     }
@@ -56,8 +57,9 @@ public class InventarioTienda {
     public static void main(String[] args) {
         InventarioTienda tienda = new InventarioTienda();
 
-o        tienda.agregarProducto("Manzanas", 50);
+      tienda.agregarProducto("Manzanas", 50);
         tienda.actualizarCantidadProducto("Manzanas", 75);
         tienda.eliminarProducto("Manzanas");
+        
     }
-} para la interacción con el usuario y evitando el uso de switch-case y Scanne
+} 
